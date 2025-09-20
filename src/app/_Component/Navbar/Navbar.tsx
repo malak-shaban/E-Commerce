@@ -44,6 +44,7 @@ export default function Navbar() {
             <li><Link href={"/products"}>Products</Link></li>
             <li><Link href={"/categories"}>Categories</Link></li>
             <li><Link href={"/brands"}>Brands</Link></li>
+            <li><Link href={"/wishlist"}>Wishlist</Link></li>
           </ul>
         </div>
 
@@ -127,7 +128,7 @@ export default function Navbar() {
             )}
             <li><Link href={"/products"} onClick={() => setIsOpen(false)}>Products</Link></li>
             <li><Link href={"/categories"} onClick={() => setIsOpen(false)}>Categories</Link></li>
-            <li><Link href={"/brands"} onClick={() => setIsOpen(false)}>Brands</Link></li>
+            <li><Link href={"/wishlist"} onClick={() => setIsOpen(false)}>Wishlist</Link></li>
           </ul>
 
           {!session ? (
