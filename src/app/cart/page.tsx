@@ -231,11 +231,6 @@ export default function Cart() {
               <Button className='bg-green-700 text-white w-full cursor-pointer p-5 hover:bg-green-900'>Cash on delivery</Button>
             </Link>
           </div>
-          <div className='my-5'>
-            <Link href={`/cachOrder/${cartId}`}>
-              <Button className='bg-green-700 text-white w-full cursor-pointer p-5 hover:bg-green-900'>View all orders</Button>
-            </Link>
-          </div>
 
         </div>
       )
