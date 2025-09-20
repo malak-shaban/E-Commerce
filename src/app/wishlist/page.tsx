@@ -52,7 +52,7 @@ export default function WishlistPage() {
     return (
         <>
             {wishlist.length > 0 ? (
-                <div className="w-2/3 mx-auto my-12">
+                <div className="w-[80%] mx-auto my-12">
                     <h2 className='text-2xl text-center my-5 font-bold font-serif'>Wishlist</h2>
                     <div className="relative overflow-x-auto shadow-md sm:rounded-lg">
                         <table className="w-full text-sm text-left text-gray-500 dark:text-gray-400">

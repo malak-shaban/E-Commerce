@@ -67,7 +67,7 @@ export default function ResetPassword() {
     }
     return (
         <>
-            <div className="w-[50%] mx-auto my-12 p-5 border-2 rounded-lg shadow-2xl">
+            <div className="w-[80%] mx-auto my-12 p-5 border-2 rounded-lg shadow-2xl">
                 <h1 className='text-3xl text-center my-5 font-bold font-serif'>To logging in </h1>
                 <Form {...form}>
                     <form onSubmit={form.handleSubmit(handleResetPassword)}>

@@ -142,7 +142,7 @@ export default function Cart() {
     <>
 
       {cartProducts.length > 0 ? (
-        <div className="w-2/3 mx-auto my-12 font-serif">
+        <div className="w-[80%] mx-auto my-12 font-serif">
           <h2 className='text-2xl text-center my-5 font-bold font-serif'>My Cart</h2>
           <span className='p-2 lg:p-5 md:p-3 border-[1px] rounded-lg border-gray-800 text-center '><strong>Total Price :<span className='text-green-800 pr-2'> {totalCartPrice}</span></strong>EGP</span>
           <div className="flex justify-end">
