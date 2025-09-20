@@ -22,7 +22,7 @@ export default function MainSlider() {
             <Image
               src={img1}
               alt='photo'
-              className='w-full h-[400px] object-cover'
+              className='w-full h-[200px] md:h-[400px] object-cover'
               loading="eager"
               priority
             />
@@ -31,7 +31,7 @@ export default function MainSlider() {
             <Image
               src={img2}
               alt='photo'
-              className='w-full h-[400px] object-cover'
+              className='w-full h-[200px] md:h-[400px] object-cover'
               loading="eager"
               priority
             />
@@ -40,7 +40,7 @@ export default function MainSlider() {
             <Image
               src={img3}
               alt='photo'
-              className='w-full h-[400px] object-cover'
+              className='w-full h-[200px] md:h-[400px] object-cover'
               loading="eager"
               priority
             />
